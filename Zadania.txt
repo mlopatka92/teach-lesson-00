@@ -2,4 +2,4 @@
 2. Ostrzeżenie o niskiej temperaturze powinno losować temperaturę pomiędzy -30 a -20 stopni.
 3. Ostrzeżenie o wysokiej temperaturze powinno wyświetlić poziom ostrzeżenia HIGH jeśli temperatura jest pomiędzy 30 a
     40 stopni lub CRITICAL jeśli przekracza 50.
-4. Data alertu powinna nie powinna pokazywać czasu.
+4. Data alertu powinna powinna mieć format: YYYY-MM-DD.
