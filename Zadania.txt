@@ -3,3 +3,6 @@
 3. Ostrzeżenie o wysokiej temperaturze powinno wyświetlić poziom ostrzeżenia HIGH jeśli temperatura jest pomiędzy 30 a
     40 stopni lub CRITICAL jeśli przekracza 50.
 4. Data alertu powinna powinna mieć format: YYYY-MM-DD.
+
+Dokumentacja:
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/ThreadLocalRandom.html

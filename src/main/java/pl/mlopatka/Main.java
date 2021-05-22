@@ -5,6 +5,8 @@ import pl.mlopatka.alert.AlertService;
 import pl.mlopatka.alert.SimpleAlertService;
 import pl.mlopatka.message.MessageTemplates;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Main {
 
     private static final AlertService ALERT_SERVICE = new SimpleAlertService();
@@ -25,7 +27,8 @@ public class Main {
     }
 
     public static void lowTemperature() {
-        ALERT_SERVICE.displayMsg(AlertLevel.HIGH, String.format(MessageTemplates.LOW_TEMPERATURE, -20));
+        ALERT_SERVICE.displayMsg(AlertLevel.HIGH, String.format(MessageTemplates.LOW_TEMPERATURE,
+                ThreadLocalRandom.current().nextInt(-30, -19)));
     }
 
     public static void highTemperature() {
